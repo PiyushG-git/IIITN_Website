@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IIIT Nagpur - Responsive Redesign</title>
+    <link
+      rel="shortcut icon"
+      href="./Assest/favicon_io/android-chrome-512x512.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div id="loader-image">
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/1.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/2.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/3.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/4.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/5.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/6.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/7.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/8.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+        <img
+          src="https://home.iitd.ac.in/images/preloaders/9.png"
+          class="loader-img"
+          alt="Loader Image"
+        />
+      </div>
+    </div>
+    <div id="main">
+      <div id="header">
+        <div id="header-top">
+          <div id="header-top-part1">
+            <div class="header-top-part1-content">
+              <i class="ri-user-fill"></i>
+              <h1>Jobs</h1>
+            </div>
+            <div class="header-top-part1-content">
+              <i class="ri-calendar-todo-fill"></i>
+              <h1>Calendar</h1>
+            </div>
+            <div class="header-top-part1-content">
+              <i class="ri-building-line"></i>
+              <h1>Tenders</h1>
+            </div>
+            <div class="header-top-part1-content">
+              <i class="ri-bank-card-2-line"></i>
+              <h1>Payment</h1>
+            </div>
+            <div class="header-top-part1-content">
+              <i class="ri-empathize-fill"></i>
+              <h1>Recruiters</h1>
+            </div>
+            <div class="header-top-part1-content">
+              <i class="ri-hand"></i>
+              <h1>IGES</h1>
+            </div>
+            <div class="header-top-part1-content">
+              <i class="ri-megaphone-line"></i>
+              <h1>ICC</h1>
+            </div>
+            <div class="header-top-part1-content">
+              <i class="ri-gift-fill"></i>
+              <h1>GIVE</h1>
+            </div>
+          </div>
+          <div id="header-top-part2">
+            <i class="ri-twitter-line"></i>
+            <i class="ri-facebook-circle-line"></i>
+            <i class="ri-mail-line"></i>
+          </div>
+          <div id="header-top-part3">
+            <div class="header-top-part3-content">
+              <h1>हिन्दी</h1>
+            </div>
+          </div>
+        </div>
+        <div id="header-middle">
+          <div id="header-middle-part1">
+            <div id="logo">
+              <img
+                src="https://iiitn.ac.in/images/main-logo-90x90.png"
+                alt="Logo"
+              />
+            </div>
+            <div id="Institute-Name">
+              <h1>Indian Institute of Information Technology, Nagpur</h1>
+              <h5>
+                An Institution of National Importance By An Act of Parliament
+              </h5>
+            </div>
+          </div>
+          <div id="header-middle-part2">
+            <div id="header-middle-part2-content">
+              <a
+                href="https://www.google.com/maps/place/Indian+Institute+of+Information+Technology,+Nagpur+(IIITN)/@20.9499291,79.0237999,17z/"
+              >
+                <h1>IIIT Nagpur</h1>
+                <h1>Survey No. 140 - 141/1, Off, Adilabad - Nagpur Rd</h1>
+                <h1>Waranga, Maharashtra 441108</h1>
+              </a>
+            </div>
+            <div id="header-middle-part2-logo">
+              <img src="./location-1132647_1280.png" alt="Location Icon" />
+            </div>
+          </div>
+        </div>
+        <nav id="header-bottom">
+          <div class="navbar">
+            <button class="menu-home"><i class="ri-home-3-fill"></i></button>
+            <button class="menu" data-dropdown="academics">Academics ▼</button>
+            <button class="menu" data-dropdown="research">Research ▼</button>
+            <button class="menu" data-dropdown="admissions">
+              Admissions ▼
+            </button>
+            <button class="menu" data-dropdown="departments">
+              Departments ▼
+            </button>
+            <button class="menu" data-dropdown="programs">Programs ▼</button>
+
+            <!-- Dropdowns -->
+            <div class="dropdown" id="academics">
+              <div class="dropdown-container">
+                <div class="column">
+                  <h3>Basic Sciences</h3>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://iiitn.ac.in/page/about-department-Basic-Science/178/"
+                        >About Department</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://iiitn.ac.in/page/bos-basic-science/180/"
+                        >BoS</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://iiitn.ac.in/page/achievements/181/"
+                        >Achievements</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://iiitn.ac.in/page/research-Basic-science/317/"
+                        >Research</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://iiitn.ac.in/page/faculty-basic-science/183/"
+                        >Faculty</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://iiitn.ac.in/page/staff/193/">Staff</a>
+                    </li>
+                    <li>
+                      <a href="https://iiitn.ac.in/page/projects/185/"
+                        >Projects</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://iiitn.ac.in/page/laboratory/186/"
+                        >Laboratory</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://iiitn.ac.in/page/events/187/">Events</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Additional columns for Academics... -->
+              </div>
+            </div>
+
+            <div class="dropdown" id="research">
+              <div class="dropdown-container">
+                <div class="column">
+                  <h3>Research Areas</h3>
+                  <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Quantum Computing</li>
+                    <li>Material Science</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown" id="admissions">
+              <div class="dropdown-container">
+                <div class="column">
+                  <h3>Admissions</h3>
+                  <ul>
+                    <li>Undergraduate</li>
+                    <li>Masters</li>
+                    <li>Ph.D.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown" id="departments">
+              <div class="dropdown-container">
+                <div class="column">
+                  <h3>Departments</h3>
+                  <ul>
+                    <li>Engineering</li>
+                    <li>Sciences</li>
+                    <li>Humanities</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown" id="programs">
+              <div class="dropdown-container">
+                <div class="column">
+                  <h3>Programs</h3>
+                  <ul>
+                    <li>Bachelor’s</li>
+                    <li>Master’s</li>
+                    <li>Doctorate</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div id="page1">
+        <div id="latest-news"></div>
+        <div id="tiles" class="grid-container">
+          <div id="tiles" class="grid-container">
+            <div class="tile">
+              <a href="#news">
+                <span class="icon">
+                  <img src="icons/news.svg" alt="News" />
+                </span>
+                <p>News</p>
+              </a>
+            </div>
+            <div class="tile">
+              <a href="#admission">
+                <span class="icon">
+                  <img src="icons/programs.svg" alt="Programs" />
+                </span>
+                <p>Programs</p>
+              </a>
+            </div>
+            <div class="tile">
+              <a href="#nitj-numbers">
+                <span class="icon">
+                  <img src="icons/placements.svg" alt="Placements" />
+                </span>
+                <p>Placements</p>
+              </a>
+            </div>
+            <div class="tile">
+              <a href="#research">
+                <span class="icon">
+                  <img src="icons/achievements.svg" alt="Achievements" />
+                </span>
+                <p>Achievements</p>
+              </a>
+            </div>
+            <div class="tile">
+              <a href="#campus-life">
+                <span class="icon">
+                  <img src="icons/campus-life.svg" alt="Campus Life" />
+                </span>
+                <p>Campus Life</p>
+              </a>
+            </div>
+          </div>
+          <!-- Page content goes here -->
+        </div>
+      </div>
+
+      <div id="page2">
+        <div id="news">
+          <div id="news-body">
+            <div id="announcements">
+              <div class="announcements-container">
+                <div class="header">
+                  <h1>Latest <span>Events</span></h1>
+                </div>
+
+                <div class="carousel-container">
+                  <button
+                    class="nav-btn left-btn"
+                    onclick="scrollCarousel('left')"
+                  >
+                    &lt;
+                  </button>
+                  <div class="carousel" id="carousel">
+                    <!-- Dynamic Event Cards -->
+                  </div>
+                  <button
+                    class="nav-btn right-btn"
+                    onclick="scrollCarousel('right')"
+                  >
+                    &gt;
+                  </button>
+                </div>
+
+                <div style="margin-top: 15px">
+                  <a href="#" class="read-more">View All →</a>
+                </div>
+              </div>
+            </div>
+            <div id="notices">
+              <div id="notices-inner" class="news-container">
+                <div class="news-header">
+                  <h1>News</h1>
+                  <span class="news-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      height="40"
+                      viewBox="0 -960 960 960"
+                      width="48"
+                    >
+                      <path
+                        d="M144.065-113.304q-28.104 0-48.117-20.014-20.013-20.013-20.013-48.117v-667.174l68.312 67.467 66.601-67.467 67.557 67.478 67.557-67.478 66.799 67.478 67.318-67.478 67.318 67.478 66.799-67.478 67.477 67.478 67.477-67.478 66.72 67.478 68.195-67.478v667.174q0 28.104-20.013 48.117-20.013 20.014-48.117 20.014h-671.87Zm0-68.131H447.37v-280H144.065v280Zm368.565 0h303.305v-107.13H512.63v107.13Zm0-172.63h303.305v-107.37H512.63v107.37Zm-368.565-172.87h671.87v-114.5h-671.87v114.5Z"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+
+                <div class="news-list" id="news-cards">
+                  <!-- News items will be inserted dynamically here -->
+                </div>
+
+                <div class="news-footer">
+                  <a href="#" class="view-all">View All →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
